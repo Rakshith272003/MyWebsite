@@ -10,6 +10,8 @@
 </head>
 <body>
     <nav class="navbar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
         <a href="#" class="logo">Portfolio</a>
         <ul>
             <li class="active"><a href="#home" >About</a></li>
@@ -60,6 +62,12 @@
             </div>
         </div>
     </section>
-
+    <script>
+        function toggleMenu() {
+            const navList = document.querySelector('nav.navbar ul');
+            navList.classList.toggle('show');
+        }
+    </script>
+    
 </body>
 </html>
