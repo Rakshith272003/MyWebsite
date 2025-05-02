@@ -20,7 +20,7 @@ a {
 }
 
 .navbar {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     width: 100%;
     padding: 25px 9%;
@@ -239,3 +239,8 @@ a {
         width: 180px;
     }
 }
+@media (max-width: 768px) {
+    section:not(.home) {
+      padding-top: 60px;
+    }
+  }
