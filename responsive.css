@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    nav.navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav.navbar ul li {
+        margin: 10px 0;
+    }
+
+    .bars_animation {
+        display: none;
+    }
+
+    body, html {
+        overflow-x: hidden;
+    }
+
+    section, div, .content, .container {
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+    }
+}
